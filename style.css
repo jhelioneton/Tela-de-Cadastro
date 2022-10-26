@@ -68,7 +68,8 @@ h1 {
     transition: all .3s ease-out;
 }
 
-.label-float input:focus + label {
+.label-float input:focus + label,
+.label-float input:valid + label {
     font-size: 13px;
     margin-top: 0;
     color: #230145;
@@ -91,4 +92,9 @@ button {
 button:hover {
     background-color: #272262;
     color: #ffffff;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
 }
